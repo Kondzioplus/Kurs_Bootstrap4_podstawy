@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 - podstawy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../../style/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<nav>
+			<ul class="list-inline">
+				<li class="list-inline-item">Start</li>
+				<li class="list-inline-item">Realizacje</li>
+				<li class="list-inline-item">Referencje</li>
+				<li class="list-inline-item">Kontakt</li>
+			</ul>
+		</nav>					
+	</div>
+
+	
+	<div class="container">
+		<!-- klasa ROW pozwala tworzyc KOLUMNY -->
+		<div class="row">
+			<!-- klasa COL tworzy kolumny jednakowe -->
+			<article class="col">
+				<img src="images/ikona1.png" alt="obrazek">
+				<h2>Tradycja</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+
+			<article class="col">
+				<img src="images/ikona2.png" alt="obrazek">
+				<h2>Nowoczesność</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+
+			<article class="col">
+				<img src="images/ikona3.png" alt="obrazek">
+				<h2>Doświadczenie</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+		</div>
+	</div>
+	<div>
+		<h1 class="container text-center">ODSTĘP MIEDZY KOLUMNAMI</h1>
+	</div>
+
+	<div class="container">
+		<!-- klasa ROW pozwala tworzyc KOLUMNY -->
+		<div class="row">
+			<!-- kolumny dzielimy na 12 części, za pomocą klasy "COL- + numerek definiujemy jaka przestrzen ma zajmować kolumna, w tym przypadku bedzie to połowa strony (6części z 12) -->
+			<article class="col-6">
+				<img src="images/ikona1.png" alt="obrazek">
+				<h2>Tradycja</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+			<!-- COL-4 czyli kolumna zajmuje 4 części z 12 -->
+			<article class="col-4">
+				<img src="images/ikona2.png" alt="obrazek">
+				<h2>Nowoczesność</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+			<!-- COL-2 czyli kolumna zajmuje 2 czesci z 12 -->
+			<article class="col-2">
+				<img src="images/ikona3.png" alt="obrazek">
+				<h2>Doświadczenie</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid mollitia maiores corporis assumenda dolore omnis repellendus inventore perferendis porro ea dicta eveniet, sapiente fuga non, itaque dolor magnam suscipit ipsam.</p>
+			</article>
+		</div>
+	</div>
+				<!-- suma kolumn musi zawsze mieć 12 części -->
+</body>
+</html>
