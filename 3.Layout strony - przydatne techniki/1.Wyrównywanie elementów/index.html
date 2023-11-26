@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 - podstawy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../../style/bootstrap.min.css">
+	<style>
+		.row {
+			height: 700px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<nav>
+			<ul class="list-inline">
+				<li class="list-inline-item">Start</li>
+				<li class="list-inline-item">Realizacje</li>
+				<li class="list-inline-item">Referencje</li>
+				<li class="list-inline-item">Kontakt</li>
+			</ul>
+		</nav>					
+	</div>
+
+	<div class="container">
+        <!-- klasa JUSTIFY-CONTENT-AROUND ustawia identyczne odległości miedzy kolumnami/elementami -->
+		<div class="row bg-danger justify-content-around">
+            <!-- klasa ALIGN-SELF-START ustawia element w pionie w pozycji poczatkowej/górnej -->
+			<div class="col-3 align-self-start">
+				<img src="images/f1.png" alt="filmy">
+				<h3>Oglądaj filmy</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+			</div>
+            <!-- klasa ALIGN-SELF-CENTER ustawia element w pionie w pozycji centralnej/środkowej -->
+			<div class="col-3 align-self-center">
+				<img src="images/f2.png" alt="wiedza">
+				<h3>Sprawdzaj wiedzę</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+			</div>
+            <!-- klasa ALIGN-SELF-END ustawia element w pionie w pozycji końcowej/dolnej -->
+			<div class="col-3 align-self-end">
+				<img src="images/f1.png" alt="certyfikat">
+				<h3>Odbierz certyfikat</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+			</div>
+		</div>
+	</div>
+            <h1 class="text-center">ODDZIELENIE KONTENERÓW</h1>
+                <!-- klasy ALIGN-ITEMS-CENTER ustawiają elementy w pozycji pionowej wyśrodkowanej -->
+                <div class="container">
+                    <div class="row bg-danger align-items-center">
+                        <div class="col-3 ">
+                            <img src="images/f1.png" alt="filmy">
+                            <h3>Oglądaj filmy</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+                        </div>
+                        <div class="col-3 ">
+                            <img src="images/f2.png" alt="wiedza">
+                            <h3>Sprawdzaj wiedzę</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+                        </div>
+
+                        <div class="col-3">
+                            <img src="images/f1.png" alt="certyfikat">
+                            <h3>Odbierz certyfikat</h3>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto incidunt repellat temporibus quia nam facere expedita mollitia nemo! Quam quibusdam, dolorum iure. Quis accu.
+                        </div>
+                    </div>
+                </div>
+                <!-- Klasy JUSTIFY-CONTENT ustawiają elementy(liczba mnoga) w POZIOMIE -->
+                <!-- Klasy ALIGN-ITEMS ustawiaja elementy(liczba mnoga) w PIONIE -->
+                <!-- Klasy ALIGNE-SELF ustawiaja element(liczba pojedyncza) w PIONIE -->
+                
+</body>
+</html>
