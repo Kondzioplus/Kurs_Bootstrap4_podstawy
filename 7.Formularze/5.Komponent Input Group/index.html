@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 4 - podstawy</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="../../style/bootstrap.min.css">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+				<div class="navbar-nav mr-auto">
+					<a href="#" class="nav-link nav-item">Start</a>
+					<a href="#" class="nav-link nav-item active">Artykuły</a>
+					<a href="#" class="nav-link nav-item">Komentarze</a>
+					<a href="#" class="nav-link nav-item">Użytkownicy</a>
+					<a href="#" class="nav-link nav-item">Kontakt</a>			
+				</div>				
+		</div>
+	</nav>
+
+	<div class="jumbotron jumbotron-fluid bg-success text-white text-center">
+		<div class="container">
+			<h1 class="display-3">Wypełnij formularz</h1>
+		</div>
+	</div>
+
+	<div class="container pt-5">
+        <!-- Klasa INPUT-GROUP - klasa bazowa dla kontenera -->
+		<div class="input-group">
+            <!-- Klasa INPUT-GROUP-PREPEND umożliwia dodanie tekstu PRZED danymi wejsciowymi -->
+            <div class="input-group-prepend">
+			    <input type="text" placeholder="Twoja nazwa użytkownika" class="form-control">
+            <!-- Klasa INPUT-GROUP-TEXT styluje element span -->
+			    <span id="username" class="input-group-text">@strefakursow.pl</span>
+            </div>
+		</div>
+		<br>
+        <!-- odwrócona kolejnosc formularza -->
+		<div class="input-group">
+            <!-- Klasa INPUT-GROUP-APPEND umożliwia dodanie tekstu ZA danymi wejściowymi -->
+            <div class="input-group-append">
+			    <span id="url" class="input-group-text">http://strefakursow.pl/users/</span>
+			    <input type="text" placeholder="Twój unikalny URL" class="form-control">
+            </div>
+		</div>
+	</div>
+
+</body>
+</html>
