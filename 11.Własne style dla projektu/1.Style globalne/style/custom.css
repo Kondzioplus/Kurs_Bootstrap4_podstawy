@@ -1,0 +1,13 @@
+/** Globalne style **/
+/* akapity */
+p {
+	font-size: .9rem;
+}
+/* przyciski */
+.btn {
+	padding: .5rem 1.25rem;
+}
+/* etykiety */
+.page-label {
+	letter-spacing: .15rem;
+}
