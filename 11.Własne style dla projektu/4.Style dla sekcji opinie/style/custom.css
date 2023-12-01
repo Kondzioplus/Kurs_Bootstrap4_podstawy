@@ -1,0 +1,79 @@
+/** Globalne style **/
+/* akapity */
+p {
+	font-size: .9rem;
+}
+/* przyciski */
+.btn {
+	padding: .5rem 1.25rem;
+}
+/* etykiety */
+.page-label {
+	letter-spacing: .15rem;
+}
+
+/** Navbar **/
+.navbar .navbar-nav .nav-item {
+	padding: 0 1.5rem;
+}
+
+/* Sekcja Top Strony */
+.top {
+	padding: 165px 0 175px;
+	background-image: url('../images/top-bg.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+/* Nagłówek top */
+.top-header {
+	margin-bottom: 1.25rem;
+	font-size: 2.75rem;
+}
+/* akapit top */
+.top-text {
+	font-size: 1rem;
+}
+/* przycisk top */
+.top-button {
+	margin-top: 1.5rem;
+}
+
+/* Sekcja Wprowadzenie */
+.introduction {
+	padding: 50px 0 60px;
+}
+/* Nagłówek wprowadzenie */
+.introduction-header {
+	margin-bottom: 70px;
+}
+/* Kontener obrazka */
+.introduction-item {
+	padding: 0 2rem;
+}
+/* Akapit pod obrazkiem */
+.introduction-item-header {
+	margin: 1.5rem 0 .75rem;
+}
+
+/* Sekcja Opinie */
+.testimonial {
+	padding: 100px 0;
+	background-image: url('../images/testimonial-bg.jpg');
+	background-position: 0% 30%;
+	background-repeat: no-repeat;
+}
+/* Kontener z zawartością opinie */
+.testimonial-content {
+	width: 60%;
+}
+/* Nagłówek opinie */
+.testimonial-header {
+	margin-bottom: 1.75rem;
+	font-size: 3rem;
+	font-weight: 700;
+}
+/* Akapit opinie */
+.testimonial-text {
+	font-size: 1rem;
+}
